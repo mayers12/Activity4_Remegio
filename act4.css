@@ -1,0 +1,172 @@
+body {
+    font-family: 'Bookman', 'URW Bookman L', serif;
+    background-color: #fbfe62;
+    color: black;
+  }
+  
+  .navbar {
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+  }
+  
+  .nav-link {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    box-shadow: none;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-text {
+    margin-top: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      margin-bottom: 0;
+    }
+  
+    .card-body {
+      padding: 15px;
+      text-align: center;
+    }
+  
+    .card-text {
+      margin-top: auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    }
+    
+  
+    .nav-link {
+      margin-right: 75px;
+    }
+  
+    .navbar-collapse {
+      justify-content: flex-end;
+    }
+  
+    .container {
+      padding: 0px;
+    }
+  
+    .card {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .card-img-top {
+      border-radius: 0;
+    }
+  
+    .card-body {
+      padding: 20px;
+    }
+  }
+  
+  #about {
+    min-height: 80vh;
+  }
+  
+  .homepage {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .homepage h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .homepage p {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 110px;
+    text-align: left;
+  
+  }
+  
+  h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .about-content {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+  
+  /* Turtle Color Palette */
+  :root {
+    --turtle-1: #020202;
+    --turtle-2: #f49cc5;
+    --turtle-3: #b8ffff;
+    --turtle-4: #e2ff9d;
+  }
+  
+  /* Update colors as needed */
+  body {
+    background-color: var(--turtle-4);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: var(--turtle-1);
+  }
+  
+  .card {
+    background-color: var(--turtle-3);
+    color: var(--turtle-1);
+  }
+  
+  .btn {
+    background-color: var(--turtle-2);
+    color: var(--turtle-1);
+  }
+  
+  .btn:hover {
+    background-color: var(--turtle-1);
+  }
